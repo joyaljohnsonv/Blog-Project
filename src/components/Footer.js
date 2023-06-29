@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom'
 const Footer = () => {
     return (
         <>
-            <Footer className='footer' bg="dark" variant="dark">
+            <Navbar    bg="dark" variant="dark">
                 <Container>
                     <NavLink to="/" className="text-decoration-none text-light mx-2"></NavLink>
                     <Nav className="me-auto">
@@ -15,7 +15,7 @@ const Footer = () => {
                         
                     </Nav>
                 </Container>
-            </Footer>
+            </Navbar>
         </>
     )
 }
